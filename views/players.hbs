@@ -1,0 +1,14 @@
+{{#each playersArray}}
+
+<div>
+<span>{{this.name}}</span>
+<span>{{this.age}}</span>
+<span>{{this.height}}</span>
+<span>{{this.weight}}</span>
+<span>{{this.exp}}</span>
+</div>
+
+<a href="/players/{{this.id}}">See Full Player Profile on Separate Page</a>
+
+{{/each}}
+
